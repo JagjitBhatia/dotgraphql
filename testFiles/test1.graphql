@@ -1,0 +1,19 @@
+query{
+  orgs{
+    id
+    name
+    org_pic_url
+    institution
+    members {
+      role
+      title
+      user {
+          id
+          firstName
+          lastName
+          pfp_url
+          institution
+      }
+    }
+  }
+}

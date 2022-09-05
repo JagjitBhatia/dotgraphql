@@ -1,0 +1,18 @@
+mutation{
+	createOrg(name:"Best club eva", institution:"HawaiiU", org_pic_url:"https://forum.craftersland.net/uploads/monthly_2018_09/Cool.png.2a3c217e9458c0b21ad2843274b229d8.png",userId:"3",title:"Presidante") {
+    id,
+    name,
+    institution,
+    org_pic_url,
+    members {
+      user {
+        username,
+        firstName,
+        lastName,
+        pfp_url
+      },
+      role,
+      title
+    }
+  }
+}
