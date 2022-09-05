@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/JagjitBhatia/dotgraphql/dotgraphql"
+	"github.com/JagjitBhatia/dotgraphql"
 )
 
 func main() {

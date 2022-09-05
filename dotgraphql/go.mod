@@ -1,3 +1,3 @@
-module github.com/JagjitBhatia/dotgraphql
+module github.com/JagjitBhatia/dotgraphql/dotgraphql
 
 go 1.17
